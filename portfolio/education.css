@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f5f5;
+    padding: 25px 40px;
+}
+
+.navbar-left .navbar-name {
+    font-weight: bold;
+    color: rgb(37, 32, 32);
+    font-size: 20px;
+}
+
+.navbar-right ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-right ul li {
+    margin-left: 20px;
+}
+
+.navbar-right ul li a {
+    color: rgb(95, 87, 87);
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.navbar-right ul li a:hover {
+    background-color: #211c1c;
+    border-radius: 5px;
+}
+h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-top: 20px;
+}
+
+.education {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.education-item {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+}
+
+.education-item:last-child {
+    border-bottom: none;
+}
+
+.education-item h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.education-item p {
+    font-size: 1em;
+    margin: 5px 0;
+}
+
+.education-item a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.education-item a:hover {
+    text-decoration: underline;
+}

@@ -104,6 +104,7 @@ body {
 }
 
 .right-side {
+    text-indent: 0px;
     width: 80%;
     padding-right: 1.5in; /* 1.5 inches of space on the right */
     display: flex;
