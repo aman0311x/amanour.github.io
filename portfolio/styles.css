@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto Mono', sans-serif;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f5f5;
+    padding: 25px 40px;
+}
+
+.navbar-left .navbar-name {
+    font-weight: bold;
+    color: rgb(37, 32, 32);
+    font-size: 20px;
+}
+
+.navbar-right ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar-right ul li {
+    margin-left: 20px;
+}
+
+.navbar-right ul li a {
+    color: rgb(95, 87, 87);
+    text-decoration: none;
+    font-size: 16px;
+    padding: 5px 10px;
+}
+
+.navbar-right ul li a:hover {
+    background-color: #211c1c;
+    border-radius: 5px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.left-side {
+    width: 15%;
+    text-align: center;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.profile-title {
+    line-height: 1;
+    margin: 10px 10px;
+    margin-bottom: 30px;
+}
+.profile-title h1 {
+    font-size: 13px;
+    margin-bottom: 5px;
+}
+.profile-title p {
+    
+    font-size: 11px;
+    margin-bottom: 5px;
+}
+
+.profile-title p {
+    font-size: 14px;
+    color: #555;
+}
+.social-links {
+    display: flex;
+    flex-direction: column;
+    
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.social-links a {
+    color: #333;
+    text-decoration: none;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+}
+
+.social-links a:hover {
+    color: #007bff;
+}
+
+.social-links a i {
+    margin-right: 10px;
+}
+
+.right-side {
+    width: 80%;
+    padding-right: 1.5in; /* 1.5 inches of space on the right */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.right-side h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.right-side p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+    flex-grow: 1; /* Ensures that the last paragraph stretches to fill remaining space */
+}
+
+
+/* Footer Styling */
+.footer {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 30px 0;
+    border-top: 1px solid #ddd;
+    color: #333;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
