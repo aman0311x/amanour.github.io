@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -81,3 +86,16 @@ h2 {
 .education-item a:hover {
     text-decoration: underline;
 }
+.footer {
+    background-color: #f8f9fa; /* Light gray background */
+    padding: 30px 0;
+    border-top: 1px solid #ddd;
+    color: #333;
+}
+
+.footer .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
