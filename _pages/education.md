@@ -11,27 +11,51 @@ redirect_from:
 
 <h2>Education</h2>
 
-<h3>University of California, Riverside</h3>
-<p>Doctor of Philosophy (Ph.D.)<br>
-Computer Science and Engineering<br>
-Duration: 2024 - ongoing<br>
-Supervisor: Dr. Yue Dong</p>
+<style>
+  .edu-card {
+    background: #ffffff10;
+    backdrop-filter: blur(12px);
+    border-radius: 16px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+    border: 1px solid rgba(255,255,255,0.15);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+  }
+  .edu-card:hover {
+    transform: translateY(-6px) scale(1.02);
+    box-shadow: 0 16px 35px rgba(0,0,0,0.35);
+  }
+</style>
 
-<h3>Ahsanullah University of Science and Technology</h3>
-<p>Bachelor of Science (B.Sc.)<br>
-Computer Science and Engineering [Certificate]<br>
-Duration: 2014 - 2018<br>
-CGPA: 3.973/4.00 scale (Ranked 1st) [Transcript]</p>
+<div class="edu-card">
+  <h3>Ahsanullah University of Science and Technology</h3>
+  <p>
+    Bachelor of Science (B.Sc.) in Computer Science and Engineering<br>
+    Duration: 2022 – 2026<br>
+    CGPA: 3.023 / 4.00<br>
+    [Certificate]
+  </p>
+</div>
 
-<h3>Dhaka College</h3>
-<p>Higher Secondary Certificate (HSC) [Certificate]<br>
-Duration: 2011 - 2013<br>
-GPA: 5.00/5.00 scale</p>
+<div class="edu-card">
+  <h3>Brahmanbaria Government High School</h3>
+  <p>
+    Higher Secondary Certificate (HSC)<br>
+    Duration: 2019 – 2021<br>
+    GPA: 5.00 / 5.00<br>
+    [Certificate]
+  </p>
+</div>
 
-<h3>Ideal School and College</h3>
-<p>Secondary School Certificate (SSC) [Certificate]<br>
-Duration: 2009 - 2011<br>
-GPA: 5.00/5.00 scale</p>
+<div class="edu-card">
+  <h3>Annada Government High School</h3>
+  <p>
+    Secondary School Certificate (SSC)<br>
+    Duration: 2013 – 2018<br>
+    GPA: 5.00 / 5.00
+  </p>
+</div>
 
 {% for post in site.portfolio %}
   {% include archive-single.html %}
