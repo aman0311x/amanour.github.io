@@ -9,8 +9,8 @@ main:
     url: /
   - title: "Publications"
     url: /publications/
-  - title: "CV"
-    url: /files/CV.pdf
+  - title: "Research"
+    url: /research/
   - title: "Services"
     url: /services/
   - title: "Education"

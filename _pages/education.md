@@ -21,7 +21,13 @@ redirect_from:
     box-shadow: 0 8px 20px rgba(0,0,0,0.25);
     border: 1px solid rgba(255,255,255,0.15);
     transition: transform 0.25s ease, box-shadow 0.25s ease;
+    font-family: "Times New Roman", Times, serif;
   }
+  body {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+}
+
   .edu-card:hover {
     transform: translateY(-6px) scale(1.02);
     box-shadow: 0 16px 35px rgba(0,0,0,0.35);
@@ -33,7 +39,7 @@ redirect_from:
   <p>
     Bachelor of Science (B.Sc.) in Computer Science and Engineering<br>
     Duration: 2022 – 2026<br>
-    CGPA: 3.023 / 4.00<br>
+    CGPA: N/A / 4.00<br>
     [Certificate]
   </p>
 </div>

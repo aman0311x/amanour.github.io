@@ -16,6 +16,10 @@ redirect_from:
   --glass-blur: blur(14px);
   --radius: 18px;
 }
+body {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 550;
+}
 
 /* Paragraph styling for elegance */
 body p {
@@ -92,34 +96,15 @@ Currently, I am in my final year, specializing in Image Processing for my thesis
 
 # 📰 Recent News
 
-<div class="cards">
 
-  <div class="card">
-    <h3>🚀 Brain Tumor Detection Pipeline Completed</h3>
-    <p><strong>Date:</strong> October 2025</p>
-    <p>Developed a YOLO + ViT-GRU hybrid pipeline achieving <strong>98.7% accuracy</strong> with explainability.</p>
-    <a href="https://github.com/aman0311x" class="button">View Project →</a>
-  </div>
+<div style="margin-top: 20px; line-height: 1.75; font-size: 1.02rem;">
 
-  <div class="card">
-    <h3>📝 Dengue Severity Prediction Paper Submitted</h3>
-    <p><strong>Date:</strong> November 2025</p>
-    <p>Submitted research paper <em>“Causal & Explainable DSS for Dengue Severity Prediction”</em> to ICECTE 2025.</p>
-    <a href="#" class="button">View Paper →</a>
-  </div>
+📰 <strong>[February 2026]</strong> — Abstract accepted for a book chapter in <em>“AI for Medical Imaging and Precision Diagnostics: From Theory to Practice”</em> (Routledge, Taylor & Francis Group).
 
-  <div class="card">
-    <h3>🤖 Multimodal CLIP + TinyLLaMA Research</h3>
-    <p><strong>Date:</strong> September 2025</p>
-    <p>Developing a multimodal CLIP-ViT + TinyLLaMA contrastive learning pipeline.</p>
-    <a href="https://github.com/aman0311x" class="button">Roadmap →</a>
-  </div>
+<br>
 
-  <div class="card">
-    <h3>🎖 Reviewer Role for IEEE Access</h3>
-    <p><strong>Date:</strong> August 2025</p>
-    <p>Invited as a reviewer in the fields of Machine Learning & NLP.</p>
-    <a href="#" class="button">Reviewer Profile →</a>
-  </div>
+
 
 </div>
+
+

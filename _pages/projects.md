@@ -7,6 +7,7 @@ redirect_from:
   - /projects
 ---
 
+
 <style>
   .project-card {
     background: #ffffff;
@@ -21,6 +22,10 @@ redirect_from:
     transform: translateY(-6px);
     box-shadow: 0 15px 30px rgba(0,0,0,0.18);
   }
+  body {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 550;
+}
   .project-title a {
     color: #0077cc;
     text-decoration: none;
