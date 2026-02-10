@@ -63,8 +63,8 @@ redirect_from:
 
   <div class="cp-card">
     <h3>Codeforces</h3>
-    <a href="https://codeforces.com/profile/rahman_aman" target="_blank">rahman_aman</a>
-    <div class="cp-stat">Max Rating: <strong>1512</strong> (Specialist)</div>
+    <a href="https://codeforces.com/profile/aman0311" target="_blank">aman0311</a>
+    <div class="cp-stat">Max Rating: <strong>1112</strong> </div>
   </div>
 
   <div class="cp-card">
