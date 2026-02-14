@@ -112,6 +112,14 @@
     </li>
   {% endif %}
 
+  {% if author.kaggle %}
+  <li>
+    <a href="https://www.kaggle.com/{{ author.kaggle }}">
+      <i class="fab fa-fw fa-kaggle icon-pad-right"></i>Kaggle
+    </a>
+  </li>
+{% endif %}
+
 </ul>
   </div>
 </div>
