@@ -99,7 +99,16 @@ Currently, I am in my final year, specializing in Image Processing for my thesis
 
 <div style="margin-top: 20px; line-height: 1.75; font-size: 1.02rem;">
 
-📰 <strong>[February 2026]</strong> — Abstract accepted for a book chapter in <em>“AI for Medical Imaging and Precision Diagnostics: From Theory to Practice”</em> (Routledge, Taylor & Francis Group).
+📰 <strong><span style="color: red;">[February 2026]</span></strong> — 
+Abstract accepted for a book chapter in 
+<em>
+<span style="color: #6a0dad; font-weight: 600;">
+“AI for Medical Imaging and Precision Diagnostics: From Theory to Practice”
+</span>
+</em> 
+(<span style="color: #1f77b4; font-weight: 500;">
+Routledge, Taylor & Francis Group
+</span>).
 
 <br>
 

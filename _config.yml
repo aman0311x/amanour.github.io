@@ -27,8 +27,8 @@ author:
   name             : "Amanour Rahman"
   pronouns         : # example: "she/her"  
   bio              : "Aspiring ML Researcher | Medical AI & Multimodal Learning | CSE Undergrad @AUST | Turning Data into Diagnostics"
-  location         : "Earth"
-  employer         : "AUST"
+  location         : "Dhaka, Bangladesh"
+  employer         : # "AUST"
   uri              : # URL
   email            : "amanourrahman609@gmail.com" 
 
@@ -37,7 +37,7 @@ author:
   googlescholar    : "https://scholar.google.com/citations?user=r-opZlMAAAAJ&hl=en"
   impactstory      : # URL
   orcid            : "https://orcid.org/my-orcid?orcid=0009-0008-5593-988X"
-  semantic         : # URL
+  semantic         : "https://www.semanticscholar.org/me/library/all"
   pubmed           : # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : "https://www.researchgate.net/profile/Mohammad-Rahman-346?ev=hdr_xprf"
   scopus           : # URL
@@ -60,7 +60,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin : "https://www.linkedin.com/in/amanour/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
